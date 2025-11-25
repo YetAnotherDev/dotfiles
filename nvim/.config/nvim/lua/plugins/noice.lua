@@ -6,4 +6,11 @@ return {
     "MunifTanjim/nui.nvim",
     "rcarriga/nvim-notify",
   },
+  opts = {
+    lsp = {
+      progress = {
+        enabled = false,
+      },
+    },
+  },
 }
