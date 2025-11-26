@@ -6,6 +6,7 @@ return {
     "MunifTanjim/nui.nvim",
     "rcarriga/nvim-notify",
   },
+  -- https://github.com/seblyng/roslyn.nvim/issues/236
   opts = {
     lsp = {
       progress = {
