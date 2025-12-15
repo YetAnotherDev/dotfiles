@@ -1,0 +1,25 @@
+{"signed_in":false,"milliseconds_since_first_event":0,"type":"App","operation":"first open"}
+{"signed_in":false,"milliseconds_since_first_event":18,"type":"Setting","setting":"theme","value":"One Dark"}
+{"signed_in":false,"milliseconds_since_first_event":18,"type":"Setting","setting":"keymap","value":"VSCode"}
+{"signed_in":false,"milliseconds_since_first_event":0,"type":"Editor","operation":"open","file_extension":"json","vim_mode":false,"copilot_enabled":true,"copilot_enabled_for_language":true}
+{"signed_in":false,"milliseconds_since_first_event":81606,"type":"Memory","memory_in_bytes":160907264,"virtual_memory_in_bytes":435893846016}
+{"signed_in":false,"milliseconds_since_first_event":81606,"type":"Cpu","usage_as_percentage":0.0,"core_count":16}
+{"signed_in":false,"milliseconds_since_first_event":251932,"type":"App","operation":"open project"}
+{"signed_in":false,"milliseconds_since_first_event":268648,"type":"App","operation":"welcome page: change theme"}
+{"signed_in":false,"milliseconds_since_first_event":276902,"type":"Setting","setting":"theme","value":"Rosé Pine Dawn"}
+{"signed_in":false,"milliseconds_since_first_event":280826,"type":"App","operation":"welcome page: change keymap"}
+{"signed_in":false,"milliseconds_since_first_event":286007,"type":"Setting","setting":"keymap","value":"VSCode"}
+{"signed_in":false,"milliseconds_since_first_event":290158,"type":"App","operation":"welcome page: sign in to copilot"}
+{"signed_in":false,"milliseconds_since_first_event":0,"type":"Memory","memory_in_bytes":175521792,"virtual_memory_in_bytes":435891453952}
+{"signed_in":false,"milliseconds_since_first_event":0,"type":"Cpu","usage_as_percentage":3.6154826,"core_count":16}
+{"signed_in":false,"milliseconds_since_first_event":240003,"type":"Memory","memory_in_bytes":175603712,"virtual_memory_in_bytes":435890880512}
+{"signed_in":false,"milliseconds_since_first_event":240003,"type":"Cpu","usage_as_percentage":1.9205407,"core_count":16}
+{"signed_in":false,"milliseconds_since_first_event":0,"type":"App","operation":"welcome page: open extensions"}
+{"signed_in":false,"milliseconds_since_first_event":0,"type":"App","operation":"extensions page: open"}
+{"signed_in":false,"milliseconds_since_first_event":80492,"type":"Memory","memory_in_bytes":195166208,"virtual_memory_in_bytes":436097990656}
+{"signed_in":false,"milliseconds_since_first_event":80492,"type":"Cpu","usage_as_percentage":5.2373056,"core_count":16}
+{"signed_in":false,"milliseconds_since_first_event":176771,"type":"App","operation":"extensions: install extension"}
+{"signed_in":false,"milliseconds_since_first_event":177494,"type":"Extension","extension_id":"csharp","version":"0.0.2"}
+{"signed_in":false,"milliseconds_since_first_event":178065,"type":"Extension","extension_id":"html","version":"0.1.1"}
+{"signed_in":false,"milliseconds_since_first_event":221298,"type":"App","operation":"extensions: install extension"}
+{"signed_in":false,"milliseconds_since_first_event":221763,"type":"Extension","extension_id":"templ","version":"0.0.2"}

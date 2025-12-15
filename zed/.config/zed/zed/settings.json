@@ -1,0 +1,16 @@
+{
+  "icon_theme": "Material Icon Theme",
+  "agent": {
+    "play_sound_when_agent_done": true
+  },
+  "base_keymap": "VSCode",
+  "theme": "Rosé Pine",
+  "ui_font_size": 16,
+  "buffer_font_size": 16,
+  "vim_mode": true,
+  "ui_font_family": "JetBrainsMono Nerd Font",
+  "terminal": {
+    "font_family": "JetBrainsMono Nerd Font",
+    "font_size": 12
+  }
+}
