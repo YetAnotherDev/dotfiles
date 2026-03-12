@@ -41,7 +41,7 @@ alias n="nvim"
 alias nn="nvim ."
 alias nvc="nvim $HOME/.config/"
 alias rdr='open -na "Rider.app" --args nosplash "$@“' 
-
+alias notes="nvim $HOME/Documents/'Main - Vault'/"
 eval "$(zoxide init zsh)"
 
 source <(fzf --zsh)

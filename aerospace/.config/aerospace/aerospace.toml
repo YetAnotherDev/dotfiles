@@ -64,6 +64,14 @@ if.app-name-regex-substring = 'Outlook'
 run = ['move-node-to-workspace 3']      # The callback itself
 
 [[on-window-detected]]
+if.app-name-regex-substring = 'Messages'
+run = ['move-node-to-workspace 5']       # The callback itself
+
+[[on-window-detected]]
+if.app-name-regex-substring = 'Microsoft Teams'
+run = ['move-node-to-workspace 3']              # The callback itself
+
+[[on-window-detected]]
 if.app-name-regex-substring = 'Code'
 run = ['move-node-to-workspace 1']   # The callback itself
 
@@ -72,8 +80,29 @@ if.app-name-regex-substring = 'WezTerm'
 run = ['move-node-to-workspace 1']      # The callback itself
 
 [[on-window-detected]]
+if.app-name-regex-substring = 'Warp'
+run = ['move-node-to-workspace 1']   # The callback itsel
+
+[[on-window-detected]]
 if.app-name-regex-substring = 'Firefox'
 run = ['move-node-to-workspace 2']      # The callback itself
+
+[[on-window-detected]]
+if.app-name-regex-substring = 'Brave'
+run = ['move-node-to-workspace 2']    # The callback itself
+
+[[on-window-detected]]
+if.app-name-regex-substring = 'Claude'
+run = ['move-node-to-workspace 4']     # The callback itself
+
+[[on-window-detected]]
+if.app-name-regex-substring = 'ChatGPT'
+run = ['move-node-to-workspace 4']      # The callback itself
+
+[[on-window-detected]]
+if.app-name-regex-substring = 'YT Music'
+run = ['move-node-to-workspace 0']       # The callback itself
+
 
 [[on-window-detected]]
 if.app-name-regex-substring = 'finder'
@@ -98,10 +127,6 @@ run = 'layout floating'
 [[on-window-detected]]
 if.app-name-regex-substring = 'weather'
 run = 'layout floating'
-
-[[on-window-detected]]
-if.app-id = "com.mitchellh.ghostty"
-run = ["layout floating", "layout tiling", "move-node-to-workspace 1"]
 
 
 # Possible values: (qwerty|dvorak)
