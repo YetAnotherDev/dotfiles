@@ -42,7 +42,12 @@ alias nn="nvim ."
 alias nvc="nvim $HOME/.config/"
 alias rdr='open -na "Rider.app" --args nosplash "$@“' 
 alias notes="nvim $HOME/Documents/'Main - Vault'/"
+alias k="kubectl"
+alias kc="kubectl config"
+alias delds="find . -name '.DS_Store' -type f -delete"
+
 eval "$(zoxide init zsh)"
+
 
 source <(fzf --zsh)
 
@@ -63,3 +68,5 @@ function y() {
 
 . "$HOME/.local/bin/env"
 export PATH="/usr/local/opt/python/libexec/bin:$PATH"
+export PATH="/Library/TeX/texbin:$PATH"
+eval "$(atuin init zsh)"

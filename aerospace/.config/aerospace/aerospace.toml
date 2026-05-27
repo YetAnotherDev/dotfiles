@@ -108,6 +108,11 @@ run = ['move-node-to-workspace 0']       # The callback itself
 if.app-name-regex-substring = 'finder'
 run = 'layout floating'
 
+
+[[on-window-detected]]
+if.app-name-regex-substring = 'Tuna'
+run = 'layout floating'
+
 [[on-window-detected]]
 if.app-name-regex-substring = 'camera'
 run = 'layout floating'
