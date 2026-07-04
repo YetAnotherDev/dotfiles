@@ -70,3 +70,6 @@ function y() {
 export PATH="/usr/local/opt/python/libexec/bin:$PATH"
 export PATH="/Library/TeX/texbin:$PATH"
 eval "$(atuin init zsh)"
+
+export VISUAL=$(which nvim)
+export EDITOR=$VISUAL

@@ -81,7 +81,7 @@ run = ['move-node-to-workspace 1']      # The callback itself
 
 [[on-window-detected]]
 if.app-name-regex-substring = 'Warp'
-run = ['move-node-to-workspace 1']   # The callback itsel
+run = ['move-node-to-workspace 1', 'layout floating'] # The callback itsel
 
 [[on-window-detected]]
 if.app-name-regex-substring = 'Firefox'
